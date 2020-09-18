@@ -22,7 +22,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-@RestController("/storage")
+@RestController
+@RequestMapping("/storage")
 public class StorageEndpoint {
 
     @Value("${caminho}")
